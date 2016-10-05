@@ -24,7 +24,14 @@
 		Intent intent = new Intent(this , MyResult.class);
 
 	2. 送りたい値を設定
-		intent.putExtra(KEY , VALUE); //繧ｭ繝ｼ縺ｨ蛟､縺ｮ繝壹い縺ｧ貂｡縺�(KEY縺ｯ螳壽焚繧呈耳螂ｨ)  
+		intent.putExtra(KEY , VALUE); //キーと値のペアで送る(キーは定数化しておくのが推奨)  
 
 	3. 遷移開始  
 		startActivity(intent);
+
+	4. 送られてきた値の取得  
+		Intent intent = getIntent();
+		String myName = intent.getStringExtra(MyForm.EXTRA_MYNAME) //送られてきた文字列を取得
+
+	※元の画面に戻りたい時
+	* Manifest.xmlに親アクティビティを記載する  
