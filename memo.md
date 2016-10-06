@@ -1,11 +1,11 @@
 # ドットインストール簡易メモ  
-***  
+
 ## 修飾子  
 	* public  
 		クラス外からのアクセス許可
 	* private  
 		クラス外からのアクセス禁止
-	* **static**  
+	* static  
 		インスタンスを生成せずに、アクセス可能
 
 ## エラーの表示
@@ -37,7 +37,7 @@
 	* Manifest.xmlに親アクティビティを記載する  
 
 ## 時間処理
-	**※時間を格納する変数の型は[long]にする！**
+**※時間を格納する変数の型は[long]にする!**
 
 	* OSが起動してからの経過時間  
 		SystemClock.elapsedRealTime();
@@ -47,7 +47,7 @@
 		sdf.format(value);
 
 ## 割り込み事象
-	**Handlar ⇛ Runnable(処理) ⇛ UI**
+**Handlar ⇛ Runnable(処理) ⇛ UI**
 
 	1. 処理をRunnableというオブジェクトにまとめる  
 
