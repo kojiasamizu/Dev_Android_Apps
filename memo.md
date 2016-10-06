@@ -35,3 +35,25 @@
 
 	※元の画面に戻りたい時
 	* Manifest.xmlに親アクティビティを記載する  
+
+## 時間処理
+	**※時間を格納する変数の型は[long]にする！**
+
+	* OSが起動してからの経過時間  
+		SystemClock.elapsedRealTime();
+
+	* フォーマット
+		SimpleDateFormat sdf = new SimpleDateFormat(型 , ロケール);
+		sdf.format(value);
+
+## 割り込み事象
+	**Handlar ⇛ Runnable(処理) ⇛ UI**
+
+	1. 処理をRunnableというオブジェクトにまとめる  
+
+	2. Handlarを使って投げる
+		handlar.postDelayed(Runnable , sec);	//secミリ秒後に実行
+
+	3. ループさせる場合には、Runnableの中に、postDelayedを記載するが、処理中のものがバッティングしないように、先にクリアしてから呼び出す  
+		handler.removeCallbacks(updateTimer);
+		handler.postDelayed(updateTimer , 10);
