@@ -7,6 +7,8 @@
 		クラス外からのアクセス禁止
 	* static  
 		インスタンスを生成せずに、アクセス可能
+	* abstract
+		[参考](http://java-reference.sakuraweb.com/java_basic_abstract.html)
 
 ## エラーの表示
 	1. setError(str);  
@@ -137,3 +139,6 @@ finally {   //必ず実行
 
 ## ListView
 **width , heightは必ずmatch_parentにする！！！**
+
+## DB使用時のコントラクトクラス
+	* 定数定義の為、classはfainalを付け念の為空のコンストラクタを定義しておく
