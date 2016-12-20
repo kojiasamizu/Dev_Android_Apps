@@ -1,0 +1,28 @@
+<resources>
+	<string name="app_name">ShopingCalculater</string>
+	<string name="default_input_number">0</string>
+	<string name="clear_button">C/CE</string>
+	<string name="clear_all_button">CA</string>
+	<string name="division">÷</string>
+	<string name="multiplication">×</string>
+	<string name="subtraction">－</string>
+	<string name="addition">＋</string>
+	<string name="number_0">0</string>
+	<string name="number_1">1</string>
+	<string name="number_2">2</string>
+	<string name="number_3">3</string>
+	<string name="number_4">4</string>
+	<string name="number_5">5</string>
+	<string name="number_6">6</string>
+	<string name="number_7">7</string>
+	<string name="number_8">8</string>
+	<string name="number_9">9</string>
+	<string name="dot">.</string>
+	<string name="equal_button">＝</string>
+	<string name="discount_percent">％引</string>
+	<string name="discount_rate">割引</string>
+	<string name="tax">消費税</string>
+	<string name="percentStr">％</string>
+	<string name="rateStr">割</string>
+	<string name="taxStr">税</string>
+</resources>
